@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace hepiburada.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class ömer : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -2,7 +2,61 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .welcome-container {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .welcome-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .welcome-subtitle {
+        font-size: 1.5rem;
+        color: #7f8c8d;
+        margin-bottom: 25px;
+    }
+
+    .btn-custom {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-decoration: none;
+        margin: 0 8px;
+        color: white;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        transition: all 0.2s ease;
+    }
+
+    .btn-customer {
+        background-color: #27ae60;
+    }
+
+    .btn-order {
+        background-color: #2980b9;
+    }
+
+    .btn-custom:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+    }
+</style>
+
+<div class="welcome-container">
+    <h1 class="welcome-title">Hoş Geldiniz</h1>
+    <h2 class="welcome-subtitle">Hangi Listeye Gitmek İstersiniz</h2>
+
+    <a asp-controller="Customer" asp-action="Index" class="btn-custom btn-customer">
+        Müşteri Listesi
+    </a>
+
+    <a asp-controller="Order" asp-action="Index" class="btn-custom btn-order">
+        Sipariş Listesi
+    </a>
 </div>

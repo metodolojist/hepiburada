@@ -1,0 +1,86 @@
+﻿@using hepiburada.Core.Entity
+@model Customer
+
+<style>
+    .card {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: 600;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 12px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+
+    .btn-save {
+        background-color: #27ae60;
+        color: white;
+    }
+
+    .btn-back {
+        background-color: #7f8c8d;
+        color: white;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    .text-danger {
+        color: #e74c3c;
+        font-size: 0.9em;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="card">
+        <h2>Yeni Müşteri Ekle</h2>
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="form-group">
+                <label for="CustomerName">Müşteri Adı</label>
+                <input asp-for="CustomerName" class="form-control" placeholder="Ad giriniz..." />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Age">Müşteri Yaşı</label>
+                <input asp-for="Age" class="form-control" placeholder="Yaş giriniz..." />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-save" value="Kaydet" />
+                <a asp-action="Index" class="btn btn-back">Listeye Geri Dön</a>
+            </div>
+        </form>
+    </div>
+</div>

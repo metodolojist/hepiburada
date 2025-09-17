@@ -12,8 +12,8 @@ using hepiburada.Core.Contents;
 namespace hepiburada.Migrations
 {
     [DbContext(typeof(HepsiburadaDbContext))]
-    [Migration("20250916201435_Init")]
-    partial class Init
+    [Migration("20250917152833_ömer")]
+    partial class ömer
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

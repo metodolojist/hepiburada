@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hepiburada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b49b1b6f3e965b5cd987a3245b8d51136bce9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("hepiburada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hepiburada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

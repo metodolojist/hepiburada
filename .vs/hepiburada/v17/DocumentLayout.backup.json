@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALI\\source\\repos\\hepiburada\\",
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\core\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\core\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\omerf\\onedrive\\desktop\\hepiburada\\hepiburada\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\ali\\source\\repos\\hepiburada\\hepiburada\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\omerf\\onedrive\\desktop\\hepiburada\\hepiburada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\omerf\\onedrive\\desktop\\hepiburada\\hepiburada\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|c:\\users\\omerf\\onedrive\\desktop\\hepiburada\\hepiburada\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F1B04DB-7C24-4220-94B2-AFE2E5F1CECB}|hepiburada\\hepiburada.csproj|solutionrelative:hepiburada\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Customer\\Index.cshtml",
-              "RelativeDocumentMoniker": "hepiburada\\Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Customer\\Index.cshtml*",
-              "RelativeToolTip": "hepiburada\\Views\\Customer\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T20:19:26.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "hepiburada\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "hepiburada\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:19:18.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Core\\Entity\\Order.cs",
-              "RelativeDocumentMoniker": "hepiburada\\Core\\Entity\\Order.cs",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Core\\Entity\\Order.cs",
-              "RelativeToolTip": "hepiburada\\Core\\Entity\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:18:24.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Order\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "hepiburada\\Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Order\\Create.cshtml",
-              "RelativeToolTip": "hepiburada\\Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Order\\Create.cshtml*",
+              "RelativeToolTip": "hepiburada\\Views\\Order\\Create.cshtml*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T20:17:45.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "hepiburada\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "hepiburada\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T20:16:37.526Z",
+              "WhenOpened": "2025-09-17T15:46:00.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "hepiburada\\Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ALI\\source\\repos\\hepiburada\\hepiburada\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "hepiburada\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "hepiburada\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "hepiburada\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T20:05:44.845Z",
+              "WhenOpened": "2025-09-17T15:45:05.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "hepiburada\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "hepiburada\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:37:17.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "hepiburada\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Desktop\\hepiburada\\hepiburada\\Views\\Customer\\Index.cshtml*",
+              "RelativeToolTip": "hepiburada\\Views\\Customer\\Index.cshtml*",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:36:36.847Z",
               "EditorCaption": ""
             }
           ]

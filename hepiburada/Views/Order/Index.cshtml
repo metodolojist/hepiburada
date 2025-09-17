@@ -1,25 +1,19 @@
 ﻿@using hepiburada.Core.Entity
-
-
-
 @model List<Order>
-
-
-
 
 <div class="container">
 	<div class="card">
-		<div>
-			<h2>Sipariş Listesi</h2>
-			<a class="btn" asp-action="Create">Yeni Sipariş Ekle</a>
+		<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+			<h2 style="color: #2c3e50; margin: 0;">📋 Sipariş Listesi</h2>
+			<a asp-action="Create" class="btn">➕ Yeni Sipariş Ekle</a>
 		</div>
 
 		<table class="table">
 			<thead>
 				<tr>
 					<th>Ad</th>
-					<th>Basım Yılı</th>
-					<th>Yazar</th>
+					<th>Sipariş Tarihi</th>
+					<th>Müşteri</th>
 					<th>İşlemler</th>
 				</tr>
 			</thead>
@@ -28,14 +22,14 @@
 				{
 					<tr>
 						<td>@order.OrderName</td>
-						<td>@order.OrderDate</td>
+						<td>@order.OrderDate.ToString("dd.MM.yyyy")</td>
 						<td>@order.Customer.CustomerName</td>
 						<td>
-							<a class="btn" asp-action="Edit" asp-route-id="@order.OrderId">Düzenle</a>
-							<a class="btn" asp-action="Details" asp-route-id="@order.OrderId">Detaylar</a>
+							<a asp-action="Edit" asp-route-id="@order.OrderId" class="btn">✏️ Düzenle</a>
+							<a asp-action="Details" asp-route-id="@order.OrderId" class="btn">🔍 Detaylar</a>
 							<form asp-action="Delete" method="post" style="display:inline;">
 								<input type="hidden" name="id" value="@order.OrderId" />
-								<button type="submit" class="btn">Sil</button>
+								<button type="submit" class="btn" style="background:#e74c3c;">🗑️ Sil</button>
 							</form>
 						</td>
 					</tr>
@@ -44,3 +38,56 @@
 		</table>
 	</div>
 </div>
+
+<style>
+	.container {
+		max-width: 1000px;
+		margin: 40px auto;
+		padding: 20px;
+	}
+
+	.card {
+		background: #fff;
+		padding: 20px;
+		border-radius: 12px;
+		box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	}
+
+	.table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+		.table th, .table td {
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.table th {
+			background: #f5f6fa;
+			color: #2c3e50;
+		}
+
+		.table tr:hover {
+			background: #f9f9f9;
+		}
+
+	.btn {
+		display: inline-block;
+		padding: 8px 14px;
+		margin: 2px;
+		font-size: 14px;
+		color: #fff;
+		background: #3498db;
+		text-decoration: none;
+		border-radius: 6px;
+		transition: background 0.3s ease;
+		border: none;
+		cursor: pointer;
+	}
+
+		.btn:hover {
+			background: #2980b9;
+		}
+</style>
